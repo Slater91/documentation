@@ -126,7 +126,7 @@ Click the component version number to see the latest release notes for that comp
 </table>
 
 ### OpenZFS Feature Flags
-24.04-BETA.1 (Dragonfish) has the same [OpenZFS version](https://www.truenas.com/docs/scale/23.10/gettingstarted/scalereleasenotes/#new-openzfs-feature-flags) as 23.10.1 (Cobia).
+24.04-RC.1 (Dragonfish) has the same [OpenZFS version](https://www.truenas.com/docs/scale/23.10/gettingstarted/scalereleasenotes/#new-openzfs-feature-flags) as 23.10.1 (Cobia).
 
 The items listed here represent new feature flags implemented since the previous update to the built-in OpenZFS version (2.1.11).
 
@@ -142,6 +142,39 @@ The items listed here represent new feature flags implemented since the previous
 {{< /truetable >}}
 
 For more details on feature flags, see [OpenZFS Feature Flags](https://openzfs.github.io/openzfs-docs/Basic%20Concepts/Feature%20Flags.html) and [OpenZFS zpool-feature.7](https://openzfs.github.io/openzfs-docs/man/7/zpool-features.7.html).
+
+## 24.04-RC.1
+
+{{< hint type=warning title="Early Release Software" >}}
+Early releases are intended for testing and feedback purposes.
+Do not use early release software for critical tasks.
+{{< /hint >}}
+
+**March 19, 2024**
+
+iXsystems is pleased to release TrueNAS SCALE 24.04-RC.1!
+This release candidate version has software component updates and new features that are in the polishing phase.
+
+Notable changes:
+
+* 
+
+  <!-- Commenting out Syncthing Migration Content until Enterprise app updated. Expected before RC.1 or .0. Keyword: SyncDraft  -->
+  <!-- Remove comments and fix relref link below when ready to make live -->
+  <!-- 
+  Users migrating data from an existing third-party NAS solution to TrueNAS SCALE 24.04 can use the Syncthing Enterprise application to mount the source with a remote SMB share that preserves metadata.
+
+  See Third-Party Data Migration relref "DataMigrationSyncthing.md" for considerations and a full tutorial.
+  -->
+  
+<a href="https://ixsystems.atlassian.net/issues/?filter=??????" target="_blank">Click here for the full changelog</a> of completed tickets that are included in the 24.04-RC.1 release.
+{{< include file="_includes/JiraFilterInstructions.md" >}}
+
+### 24.04-RC.1 Known Issues
+
+* 
+
+<a href="https://ixsystems.atlassian.net/issues/?filter=??????" target="_blank">Click here to see the latest information</a> about public issues discovered in 24.04-RC.1 that are being resolved in a future TrueNAS SCALE release.
 
 ## 24.04-BETA.1
 
